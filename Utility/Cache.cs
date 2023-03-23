@@ -20,7 +20,9 @@ namespace Maticsoft.Utility
         public int Count
         {
             get
-            {return _Cache.Count;}
+            {
+                return _Cache.Count;
+            }
         }
 
         /// <summary>
